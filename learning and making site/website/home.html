@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keiko | Personal Website</title>
+  <link rel="stylesheet" href="website.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Keiko</h2>
+
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="socials.html">Socials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <h1 id="typing"></h1>
+      <p>Welcome to my personal website</p>
+      <button id="contactBtn">Contact Me</button>
+    </section>
+
+    <section class="skills-section" id="skills-section">
+      <h2>My Skills</h2>
+      <button id="toggleSkills">Show Skills</button>
+      <ul id="skills" class="skills hidden">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section class="socials" id="socials">
+      <h2>Find me online</h2>
+      <div class="social-links">
+        <a href="https://github.com/KeikoHu" target="_blank">🐙 GitHub</a>
+        <a href="https://discord.com/users/DoC_Keiko" target="_blank">💬 Discord</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:temuun0708@gmail.com">temuun0708@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Keiko</p>
+  </footer>
+
+  <script src="website.js"></script>
+</body>
+</html>
